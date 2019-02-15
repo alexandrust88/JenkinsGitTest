@@ -7,13 +7,13 @@ stage('Build') {
 stage('Test') {
     parallel(
     a: {
-        node('master') {
+        node('Node1') {
             sleep 10
             build 'sertianLab6Job1'
         }
     },
     b: {
-        node('Node1') {
+        node('master') {
             echo 'Branch B'
         }
     }
