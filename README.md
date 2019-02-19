@@ -5,6 +5,3 @@ asdas
 jkjhkjhkjh
 sd
 fsd
-fs
-df
-sd
