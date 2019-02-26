@@ -3,9 +3,10 @@
 using namespace std;
 
 int main() {
-	cout << "Hello World! My first Maven build worked! ";
-	cout << "This was edited! ";
-	cout << "And again! ";
-	cout << "Mai bagam o linie!\n";
+	int sum = 0;
+	for (int i = 0; i < 10; ++i) {
+		sum += i;
+	}
+	cout << "Suma numerelor de la 1 la 10 este: " << sum << '\n';
 	return 0;
 }
