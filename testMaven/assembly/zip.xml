@@ -11,7 +11,7 @@
 	<fileSets>
 		<fileSet>
 			<directory>src</directory>
-			<outputDirectory>target</outputDirectory>
+			<outputDirectory></outputDirectory>
 		</fileSet>
 	</fileSets>
 </assembly>
