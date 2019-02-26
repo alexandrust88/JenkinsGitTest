@@ -53,7 +53,7 @@
 		<descriptors>
 	           <descriptor>assembly/zip.xml</descriptor>
 		</descriptors>
-		<finalName>helloWorld-final-cookbook-${project.version}</finalName>
+		<finalName>helloWorld-${BUILD_NUMBER}-${project.version}</finalName>
 	     </configuration>
              <executions>
                 <execution>
