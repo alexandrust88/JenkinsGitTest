@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project name="ant makefile invoker" default="compileCode" basedir=".">
+  <target name="compileCode" description="Execute script and call make">
+  	<exec executable="/bin/bash">
+  	    <arg value="src/main/src/hello.sh"/>
+  	    <arg value="bonjour"/>
+  	  </exec>
+    <!-- exec dir="src/main/src" executable="/usr/bin/make" / -->
+    <exec dir="src/main/src/" executable="/usr/bin/make">
+  	    <arg value="-f"/>
+  	    <arg value="Makefile"/>
+    </exec>  	  
+  	<echo>...and GOODBYE to you !</echo>
+  </target>
+</project>

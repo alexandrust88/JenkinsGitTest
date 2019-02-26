@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="generate executable (compile)"  >
+<target name="generate executable (compile)">
+  <mkdir dir="target/bin"/>
+  <ant antfile="src/compile.xml"/>
+</target>
+</project>

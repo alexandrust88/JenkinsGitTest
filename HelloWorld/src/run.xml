@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<project name="ant run invoker" default="testCode" basedir=".">
+  <target name="testCode" description="Call the executable">
+  	<exec dir="target/bin/" executable="./Hello" />
+  </target>
+</project>

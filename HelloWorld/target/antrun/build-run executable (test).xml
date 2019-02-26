@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="run executable (test)"  >
+<target name="run executable (test)">
+  <ant antfile="src/run.xml"/>
+</target>
+</project>
