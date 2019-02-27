@@ -29,7 +29,7 @@
 						</goals>
 						<configuration>
 							<workingDirectory>src</workingDirectory>
-							<executable>ls</executable>
+							<executable>make</executable>
 						</configuration>
 					</execution>
 				</executions>
